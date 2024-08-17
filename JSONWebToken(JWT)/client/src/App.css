@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+
+
+body{
+  background: url(./components/images/BG1.avif);
+  color: yellow; 
+}
+form{
+  display:inline-block;
+  padding: 25px; 
+}
+
+form label{
+  display: inline-block;
+  width: 100px;   
+}
+form div{
+  margin: 15px; 
+}
+nav{
+  background-color: skyblue;
+  font-size: 1rem;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.innerlabel{
+ width: 100px;
+}
+.profileviewer{
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  border: 2px solid grey;
+}
